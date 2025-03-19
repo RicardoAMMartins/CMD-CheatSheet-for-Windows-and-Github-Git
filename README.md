@@ -17,9 +17,9 @@ This document contains a short compilation of commands to use on **CMD**(command
 
 <h3>NOTES:</h3>
 
-	>	This is not a extensive list of all commands for both Windows and Github/Git.
+  >This is not a extensive list of all commands for both Windows and Github/Git.
 	
-	>	All Windows commands work as intended on Windows 11 but I can't confirm on Windows 10 and prior versions.
+  >All Windows commands work as intended on Windows 11 but I can't confirm on Windows 10 and prior versions.
 
 <hr>
 
