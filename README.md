@@ -35,7 +35,7 @@ cd [folder path]
 ```
 - Moves directly to the given path
 
--> Example:
+ -> Example:
 ```md
 cd C:\User\Name\Downloads
 ```
@@ -46,7 +46,7 @@ cd ..
 ```
 - Go up one level in the folder hierarchy
 
--> Example:
+ -> Example:
 ```md
 cd C:\User\Name\Downloads
 cd ..
@@ -60,7 +60,7 @@ cd ..\..\
 ```
  - Go up as many levels in the folder hierarchy as many **..\\** you have
 
--> Example:
+ -> Example:
 ```md
 cd C:\User\Name\Downloads
 cd ..\..\
@@ -73,7 +73,7 @@ cd \
 ```
 - Go directly to the root of your drive
 
--> Example:
+ -> Example:
 ```md
 cd C:\User\Name\Downloads
 cd \
@@ -86,7 +86,7 @@ cd
 ```
 - Displays the full path of the current directory
 
--> Example:
+ -> Example:
 ```md
 cd C:\User\Name\Downloads
 cd
@@ -99,7 +99,7 @@ cd
 ```
 - Moves to the drive with the respective letter
 
--> Example:
+ -> Example:
 ```md
 D:
 ```
