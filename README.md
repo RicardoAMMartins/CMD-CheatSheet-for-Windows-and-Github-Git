@@ -11,11 +11,23 @@
 </div>
 <h3  align="center">CMD CheatSheet for Windows and Github/Git</h3>
 
-<hr>
 
 This document contains a short compilation of commands to use on **CMD**(Command Prompts) for both **Windows** and **Github**.
 
-<h3>NOTES:</h3>
+<hr>
+
+<h3 align="center" >INDEX</h3>
+
+- [Notes](#notes)
+- [Parameters](#parameters)
+- [Windows](#windows)
+- [Github/Git](#github/git)
+- [Bibliography](#bibliography)
+
+<hr>
+
+<a id="notes"></a>
+<h3  align="center" >NOTES</h3>
 
 >This is not a extensive list of all commands for both **Windows** and **Github/Git**.
 
@@ -23,9 +35,23 @@ This document contains a short compilation of commands to use on **CMD**(Command
 
 <hr>
 
-<div  align="center">
-<a  href="https://www.microsoft.com/en-us/">
-<img  src="https://skillicons.dev/icons?i=windows&theme=dark"/>
+<a id="parameters"></a>
+<h3  align="center" >PARAMETERS</h3>
+
+Parameters(also called switches,flags or options) are prefixes that change the behavior of a command. In order to use a parameter you must write them always after the command itself and with a **/** before a letter.
+
+```md
+dir /w
+```
+
+ >You can use as many parameters as you want, just put a space between every one .
+
+<hr>
+
+<a id="windows"></a>
+<div align="center">
+<a href="https://www.microsoft.com/en-us/">
+<img src="https://skillicons.dev/icons?i=windows&theme=dark"/>
 </a>
 </div>
 
@@ -35,7 +61,7 @@ cd [folder path]
 ```
 - Moves directly to the given path
 
- -> Example:
+-> Example:
 ```md
 cd C:\User\Name\Downloads
 ```
@@ -46,7 +72,7 @@ cd ..
 ```
 - Go up one level in the folder hierarchy
 
- -> Example:
+-> Example:
 ```md
 cd C:\User\Name\Downloads
 cd ..
@@ -60,7 +86,7 @@ cd ..\..\
 ```
  - Go up as many levels in the folder hierarchy as many **..\\** you have
 
- -> Example:
+-> Example:
 ```md
 cd C:\User\Name\Downloads
 cd ..\..\
@@ -73,7 +99,7 @@ cd \
 ```
 - Go directly to the root of your drive
 
- -> Example:
+-> Example:
 ```md
 cd C:\User\Name\Downloads
 cd \
@@ -86,7 +112,7 @@ cd
 ```
 - Displays the full path of the current directory
 
- -> Example:
+-> Example:
 ```md
 cd C:\User\Name\Downloads
 cd
@@ -99,7 +125,7 @@ cd
 ```
 - Moves to the drive with the respective letter
 
- -> Example:
+-> Example:
 ```md
 D:
 ```
@@ -122,9 +148,51 @@ A -- D: --> E{D:\}
 ```
 <hr>
 
-## Biliography
+# Files and Folders Management
+```md
+dir
+```
+- List all files and folders inside of the current directory
 
-  
+-> Example:
+```md
+cd C:\
+dir
+```
+- With the dir command will show every file and folder inside of the **C:\\** drive
+
+ Some useful [parameters](#parameters) for the dir command:
+ - /w -> Formats the list in a wide way and shows only the files and folders names
+ - /p -> Pauses after each section of information
+ -  /s -> Lists all files in the directory and all his subdirectories
+
+<hr>
+
+```md
+mkdir [folder name]
+```
+- Creates a new folder
+
+-> Example:
+```md
+mkdir Pictures
+```
+- It will create a folder called **Pictures**
+
+<hr>
+
+<a id="github/git"></a>
+<div  align="center">
+<a  href="https://github.com">
+<img  src="https://skillicons.dev/icons?i=github&theme=dark"/>
+</a>
+<a  href="https://git-scm.com">
+<img  src="https://skillicons.dev/icons?i=git&theme=dark"/>
+</a>
+</div>
+
+<a id="bibliography"></a>
+# Biliography
 
 -  <a  href="https://training.github.com">Oficial Github/Git CheatSheet</a>
 -  <a  href="https://skillicons.dev">Icons</a>
